@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pen Spinning Gym :: Learn to spin from zero!</title>
+    <link rel="stylesheet" href="main-page.css" />
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&family=Roboto+Mono:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="loading-container" id="preloader">
+      <img
+        class="loader-pg-img"
+        href="/images/PG-logo-no-bg.png"
+        alt="Logo pen spinning gym"
+      />
+      <div class="loading"></div>
+    </div>
+
+    <main>
+      <header>
+        <nav>
+          <a href="#" class="Authors">Authors</a>
+          <a href="#" class="Contact">Contact us</a>
+          <a href="#" class="Support">Support us</a>
+        </nav>
+      </header>
+      <div class="top-content">
+        <div class="top-left-content">
+          <img
+            class="main-pg-img"
+            src="/images/PG-logo-no-bg.png"
+            alt="Logo pen spinning gym"
+          />
+          <div class="text-animation-container">
+            <h1>Learn to spin</h1>
+            <span class="text"></span> <span class="typewriter"></span>
+          </div>
+          <p class="top-text">
+            All you need to learn pen spinning is patience and a random pen.
+            When you're ready, click the button below...
+          </p>
+          <div class="start-container">
+            <a href="#" class="start-learning">Start learning</a>
+            <i class="fa-solid fa-arrow-right arrow"></i>
+          </div>
+        </div>
+        <div class="top-right-content">
+          <img src="/images/7492539243945292.png" alt="hand" class="hand" />
+        </div>
+      </div>
+      <div class="waves-container">
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(12,12,12,0.7)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(12,12,12,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(12,12,12,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#0c0c0c" />
+          </g>
+        </svg>
+      </div>
+    </main>
+
+    <section class="mid-section"></section>
+    <script>
+      configObj = {
+        buttonD:
+          "M8 18.568L10.8 21.333 16 16.198 21.2 21.333 24 18.568 16 10.667z",
+        buttonT:
+          "translate(-1148 -172) translate(832 140) translate(32 32) translate(284)",
+        shadowSize:
+          "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+        roundnessSize: "999px",
+        buttonDToBottom: "40px",
+        buttonDToRight: "40px",
+        selectedBackgroundColor: "#9d2e51",
+        selectedIconColor: "#03182b",
+        buttonWidth: "56px",
+        buttonHeight: "56px",
+        svgWidth: "48px",
+        svgHeight: "48px",
+      };
+      function createButton(obj, pageSimulator) {
+        const body = document.querySelector("body");
+        backToTopButton = document.createElement("span");
+        backToTopButton.classList.add("softr-back-to-top-button");
+        backToTopButton.id = "softr-back-to-top-button";
+        pageSimulator
+          ? pageSimulator.appendChild(backToTopButton)
+          : body.appendChild(backToTopButton);
+        backToTopButton.style.width = obj.buttonWidth;
+        backToTopButton.style.height = obj.buttonHeight;
+        backToTopButton.style.marginRight = obj.buttonDToRight;
+        backToTopButton.style.marginBottom = obj.buttonDToBottom;
+        backToTopButton.style.borderRadius = obj.roundnessSize;
+        backToTopButton.style.boxShadow = obj.shadowSize;
+        backToTopButton.style.color = obj.selectedBackgroundColor;
+        backToTopButton.style.backgroundColor = obj.selectedBackgroundColor;
+        pageSimulator
+          ? (backToTopButton.style.position = "absolute")
+          : (backToTopButton.style.position = "fixed");
+        backToTopButton.style.outline = "none";
+        backToTopButton.style.bottom = "0px";
+        backToTopButton.style.right = "0px";
+        backToTopButton.style.cursor = "pointer";
+        backToTopButton.style.textAlign = "center";
+        backToTopButton.style.border = "solid 2px currentColor";
+        backToTopButton.innerHTML =
+          '<svg class="back-to-top-button-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" > <g fill="none" fill-rule="evenodd"> <path d="M0 0H32V32H0z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> <path class="back-to-top-button-img" fill-rule="nonzero" d="M11.384 13.333h9.232c.638 0 .958.68.505 1.079l-4.613 4.07c-.28.246-.736.246-1.016 0l-4.613-4.07c-.453-.399-.133-1.079.505-1.079z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> </g> </svg>';
+        backToTopButtonSvg = document.querySelector(".back-to-top-button-svg");
+        backToTopButtonSvg.style.verticalAlign = "middle";
+        backToTopButtonSvg.style.margin = "auto";
+        backToTopButtonSvg.style.justifyContent = "center";
+        backToTopButtonSvg.style.width = obj.svgWidth;
+        backToTopButtonSvg.style.height = obj.svgHeight;
+        backToTopButton.appendChild(backToTopButtonSvg);
+        backToTopButtonImg = document.querySelector(".back-to-top-button-img");
+        backToTopButtonImg.style.fill = obj.selectedIconColor;
+        backToTopButtonSvg.appendChild(backToTopButtonImg);
+        backToTopButtonImg.setAttribute("d", obj.buttonD);
+        backToTopButtonImg.setAttribute("transform", obj.buttonT);
+        if (!pageSimulator) {
+          backToTopButton.style.display = "none";
+          window.onscroll = function () {
+            if (
+              document.body.scrollTop > 20 ||
+              document.documentElement.scrollTop > 20
+            ) {
+              backToTopButton.style.display = "block";
+            } else {
+              backToTopButton.style.display = "none";
+            }
+          };
+          backToTopButton.onclick = function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          };
+        }
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        createButton(configObj, null);
+      });
+    </script>
+    <script>
+      const loader = document.getElementById("preloader");
+      const body = document.querySelector("body");
+      window.addEventListener("load", function () {
+        loader.classList.add("loading-container-hidden");
+        body.classList.add("overflow");
+        loader.remove();
+      });
+    </script>
+  </body>
+</html>
